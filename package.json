@@ -3,9 +3,24 @@
     "displayName": "developer812 dark theme",
     "description": "It is the first dark theme by developer812",
     "version": "0.0.1",
+    "publisher": "developer812",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Soumyafc/developer812-dark-theme"
+    },
+    "keywords": [
+        "theme",
+        "developer812",
+        "dark theme",
+        "developer812 dark",
+        "developer812 dark theme",
+        "developer812darktheme"
+    ],
     "engines": {
         "vscode": "^1.56.0"
+
     },
+
     "categories": [
         "Themes"
     ],

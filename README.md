@@ -1,13 +1,7 @@
-# README
-## This is the README for your extension "developer812-dark-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+## README
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+> About This Theme
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+hello, everyone I am soumya . Our team **developer812** created this theme ,this theme have **purple** contrasted with dark background workbench . It is a good looking dark theme having other color conrast in sidebar , minimap , titlebar etc.
 
-**Enjoy!**
+And we also give a regular updates to this theme to make it better and useful to you all.
