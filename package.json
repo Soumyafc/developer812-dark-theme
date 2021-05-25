@@ -4,6 +4,7 @@
     "description": "It is the first dark theme by developer812",
     "version": "0.0.1",
     "publisher": "developer812",
+    "icon":"icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Soumyafc/developer812-dark-theme"
