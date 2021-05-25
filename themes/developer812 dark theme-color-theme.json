@@ -3,6 +3,8 @@
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
 	  "colors": {
+		"window.activeBorder": "#C11CCF",
+		"window.inactiveBorder":"#FFFF",
 		"activityBar.background": "#010B14",
 		"activityBar.border": "#010B1460",
 		"activityBar.foreground": "#DE63F7",
@@ -140,8 +142,8 @@
 		"pickerGroup.foreground": "#C11CCF",
 		"progressBar.background": "#C11CCF",
 		"scrollbar.shadow": "#010B1400",
-		"scrollbarSlider.activeBackground": "#C11CCFcc",
-		"scrollbarSlider.background": "#C11CCFbb",
+		"scrollbarSlider.activeBackground": "#C11CCFee",
+		"scrollbarSlider.background": "#d52be448",
 		"scrollbarSlider.hoverBackground": "#C11CCFee",
 		"selection.background": "#C11CCF",
 		"settings.checkboxBackground": "#010B14",
@@ -257,7 +259,10 @@
 		},
 		{
 		  "scope": [
-			"constant.other.php"
+			"constant.other.php",
+			"support.constant.property-value.css",
+			"support.constant.font-name.css",
+			"support.constant.color.w3c-extended-color-name.css"
 		  ],
 		  "settings": {
 			"foreground": "#FFFFFF"
@@ -265,7 +270,9 @@
 		},
 		{
 		  "scope": [
-			"constant.other.color"
+			"constant.other.color",
+			"keyword.other.unit.px.css"
+			
 		  ],
 		  "settings": {
 			"foreground": "#E381E9"
@@ -274,7 +281,9 @@
 		{
 		  "scope": [
 			"invalid",
-			"invalid.illegal"
+			"invalid.illegal",
+			"meta.property-list.css",
+		
 		  ],
 		  "settings": {
 			"foreground": "#4CC9F0"
@@ -290,6 +299,14 @@
 		  }
 		},
 		{
+			"scope": [
+			"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+			  "foreground": "#ff4e4eda"
+			}
+		  },
+		{
 		  "scope": [
 			"keyword.control",
 			"constant.other.color",
@@ -300,7 +317,10 @@
 			"punctuation.section.embedded",
 			"keyword.other.template",
 			"keyword.other.substitution",
-			"entity.name.tag.reference.scss"
+			"entity.name.tag.reference.scss",
+			"punctuation.terminator.statement.cpp",
+			
+			
 		  ],
 		  "settings": {
 			"foreground": "#01a7b6"
@@ -356,25 +376,52 @@
 			"punctuation.definition.comment.scss",
 			"punctuation.definition.comment.js",
 			"punctuation.definition.comment.html",
+			
+			"punctuation.definition.comment",
+			"comment.line.double-slash.cpp",
+			"comment.block.cpp",
 			"comment.block.html"
 		  ],
 		  "settings": {
-			"foreground": "#97979c"
+			"foreground": "#13e2fd48"
 		  }
 		},
 		{
+			"scope":[
+				"storage.type.class.cpp",
+				"variable.other.object.access.cpp",
+				
+			],
+			"settings": {
+				"foreground": "#ffe23cd8",
+			}
+		},
+		{
+			"scope":[
+			"storage.type.modifier.access.control.public.cpp",
+			
+			],
+			"settings": {
+				"foreground": "#51fdef",
+			}
+		},
+		
+		{
 		  "scope": [
-			"text.html.derivative"
+			"text.html.derivative",
+		
+			"meta.attribute.class.html"
 		  ],
 		  "settings": {
-			"foreground": "#a1edfa"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
 		  "scope": [
 			"entity.name.tag",
 			"meta.tag.sgml",
-			"markup.deleted.git_gutter"
+			"markup.deleted.git_gutter",
+			"storage.type.js",
 		  ],
 		  "settings": {
 			"foreground": "#DE63F7"
@@ -400,16 +447,28 @@
 		{
 		  "scope": [
 			"variable.other.object.js",
-			"storage.type.js",
+			
 			"string.other.link.title.markdown",
 			"variable.other.readwrite.js",
 			"variable.other.property.js"
 		  ],
 		  "settings": {
-			"foreground": "#FF6BEF",
+			"foreground": "#FFFFEF",
 			"fontStyle": ""
 		  }
 		},
+		{
+			"scope":[
+				
+				"entity.other.attribute-name.html"
+			
+			],
+			"settings": {
+				"foreground": "#b6ff8cd8",
+				
+			}
+		},
+	
 		{
 		  "scope": [
 			"string",
@@ -497,6 +556,7 @@
 		{
 		  "scope": [
 			"entity.name",
+			"entity.name.tag.css",
 			"support.type",
 			"support.class",
 			"support.orther.namespace.use.php",
@@ -504,7 +564,7 @@
 			"support.other.namespace.php",
 			"markup.changed.git_gutter",
 			"support.type.sys-types",
-			"entity.other.attribute-name.html"
+			
 		  ],
 		  "settings": {
 			"foreground": "#FFFFFF"
@@ -563,13 +623,10 @@
 		},
 		{
 		  "scope": [
-			"entity.other.attribute-name.id",
-			"entity.other.attribute-name.class",
-			"entity.other.attribute-name.pseudo-class",
-			"entity.name.tag.css",
+		
 			"keyword.control.conditional.js",
 			"support.constant",
-			"entity.other.attribute-name.html",
+		    "keyword.operator.relational.js",
 			"string.quoted.single.js",
 			"storage.type.function.js",
 			"meta.object-literal.key"
@@ -773,7 +830,8 @@
 		},
 		{
 		  "scope": [
-			"meta.separator"
+			"meta.separator",
+			
 		  ],
 		  "settings": {
 			"foreground": "#70f780",
