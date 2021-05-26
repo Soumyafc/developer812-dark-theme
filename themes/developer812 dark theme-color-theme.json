@@ -1,5 +1,5 @@
 {
-	"name": "developer812 theme",
+	"name": "developer812 dark theme",
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
 	  "colors": {
@@ -114,6 +114,7 @@
 		"menubar.selectionBorder": "#C11CCF50",
 		"menubar.selectionForeground": "#DE63F7",
 		"minimap.background": "#010B14",
+		"minimap.findMatchHighlight": "#88ff00",
 		"minimapGutter.addedBackground": "#4CC9F0",
 		"minimapGutter.deletedBackground": "#FFFFFF",
 		"minimapGutter.modifiedBackground": "#03071E",
@@ -245,7 +246,7 @@
 			"punctuation.definition.interpolation.begin.bracket.curly.scss"
 		  ],
 		  "settings": {
-			"fontStyle": "italic"
+			"fontStyle": "none"
 		  }
 		},
 		{
@@ -262,7 +263,8 @@
 			"constant.other.php",
 			"support.constant.property-value.css",
 			"support.constant.font-name.css",
-			"support.constant.color.w3c-extended-color-name.css"
+			"support.constant.color.w3c-extended-color-name.css",
+			"punctuation.terminator.rule.css",
 		  ],
 		  "settings": {
 			"foreground": "#FFFFFF"
@@ -271,7 +273,7 @@
 		{
 		  "scope": [
 			"constant.other.color",
-			"keyword.other.unit.px.css"
+		
 			
 		  ],
 		  "settings": {
@@ -319,9 +321,8 @@
 			"keyword.other.substitution",
 			"entity.name.tag.reference.scss",
 			"punctuation.terminator.statement.cpp",
-			
-			
-		  ],
+		
+			 ],
 		  "settings": {
 			"foreground": "#01a7b6"
 		  }
@@ -339,23 +340,37 @@
 		{
 		  "scope": [
 			"keyword.control.at-rule",
-			"punctuation.terminator.rule.css",
 			"keyword.control.operator",
 			"punctuation.definition.entity.css",
 			"keyword.operator.assignment.js",
 			"punctuation.separator.comma.js",
 			"punctuation.definition.string.begin.js",
 			"punctuation.definition.string.end.js",
-			"punctuation.definition.binding-pattern.object.js"
+			"punctuation.definition.binding-pattern.object.js",
+			"storage.type.class.cpp",
+			"variable.other.object.access.cpp",
+			
 		  ],
 		  "settings": {
-			"foreground": "#DE63F7"
+			"foreground": "#DE63F7",
+			"fontStyle": "none"
 		  }
+		},
+		{
+			"scope":[
+				"variable.other.property.cpp"
+
+			],
+			"settings": {
+				"foreground": "#fcfcfcf5",
+				"fontStyle": "none"
+			}
 		},
 		{
 		  "scope": [
 			"punctuation.definition",
-			"string.quoted.single.scss"
+			"string.quoted.single.scss",
+			"meta.paragraph.markdown"
 		  ],
 		  "settings": {
 			"foreground": "#A7A8AF"
@@ -376,26 +391,17 @@
 			"punctuation.definition.comment.scss",
 			"punctuation.definition.comment.js",
 			"punctuation.definition.comment.html",
-			
-			"punctuation.definition.comment",
+		    "punctuation.definition.comment",
 			"comment.line.double-slash.cpp",
 			"comment.block.cpp",
-			"comment.block.html"
+			"comment.block.html",
+		
 		  ],
 		  "settings": {
 			"foreground": "#13e2fd48"
 		  }
 		},
-		{
-			"scope":[
-				"storage.type.class.cpp",
-				"variable.other.object.access.cpp",
-				
-			],
-			"settings": {
-				"foreground": "#ffe23cd8",
-			}
-		},
+
 		{
 			"scope":[
 			"storage.type.modifier.access.control.public.cpp",
@@ -409,8 +415,7 @@
 		{
 		  "scope": [
 			"text.html.derivative",
-		
-			"meta.attribute.class.html"
+	        "meta.attribute.class.html"
 		  ],
 		  "settings": {
 			"foreground": "#ffffff"
@@ -422,6 +427,7 @@
 			"meta.tag.sgml",
 			"markup.deleted.git_gutter",
 			"storage.type.js",
+			
 		  ],
 		  "settings": {
 			"foreground": "#DE63F7"
@@ -447,7 +453,7 @@
 		{
 		  "scope": [
 			"variable.other.object.js",
-			
+			"constant.numeric.css",
 			"string.other.link.title.markdown",
 			"variable.other.readwrite.js",
 			"variable.other.property.js"
@@ -488,12 +494,14 @@
 			"variable.function.constructor",
 			"entity.name.tag.other.html",
 			"entity.name.tag.block.any.html",
-			"source.sass keyword.control"
+			"source.sass keyword.control",
+		
 		  ],
 		  "settings": {
 			"foreground": "#3590F3"
 		  }
 		},
+	
 		{
 		  "scope": [
 			"punctuation.definition.string.begin.html",
@@ -519,7 +527,7 @@
 			"constant.language",
 			"constant.character",
 			"constant.escape",
-			"keyword.other.unit",
+		
 			"keyword.other",
 			"punctuation.separator.key-value.html"
 		  ],
@@ -541,7 +549,7 @@
 			"constant.other.symbol",
 			"constant.other.key",
 			"entity.other.inherited-class",
-			"keyword.other.unit",
+			
 			"markup.heading",
 			"markup.inserted.git_gutter",
 			"meta.group.braces.curly",
@@ -585,7 +593,9 @@
 			"source.scss support.type.property-name",
 			"source.less support.type.property-name",
 			"source.stylus support.type.property-name",
-			"source.postcss support.type.property-name"
+			"source.postcss support.type.property-name",
+			"keyword.other.unit",
+			"entity.other.attribute-name.pseudo-class.css"
 		  ],
 		  "settings": {
 			"foreground": "#FF6BEF"
