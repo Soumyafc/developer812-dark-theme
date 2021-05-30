@@ -259,14 +259,7 @@
 			"foreground": "#03071E"
 		  }
 		},
-		{
-			"scope": [
-			 "string.quoted.double.c"
-			],
-			"settings": {
-			  "foreground": "#5863cac9"
-			}
-		  },
+		
 		{
 		  "scope": [
 			"constant.other.php",
@@ -418,7 +411,8 @@
 			"comment.line.double-slash.cpp",
 			"comment.block.cpp",
 			"comment.block.html",
-			"comment.block.css"
+			"comment.block.css",
+			"comment.line.double-slash.c"
 		
 		  ],
 		  "settings": {
@@ -520,6 +514,7 @@
 			"entity.name.tag.other.html",
 			"entity.name.tag.block.any.html",
 			"source.sass keyword.control",
+			"string.quoted.double.c"
 
 		
 		  ],
