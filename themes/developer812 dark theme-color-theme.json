@@ -415,11 +415,12 @@
 			"scope": [
 			  "constant.other.placeholder.c",
 			  "constant.character.escape.c",
-			  "support.type.property-name.media.css"
+			  "support.type.property-name.media.css",
+			  "string.quoted.other.lt-gt.include.cpp"
 			],
 			"settings": {
 			  
-			  "foreground": "#f8a86be3"
+			  "foreground": "#fda15ae3"
 			}
 		  },
 		{
@@ -523,7 +524,8 @@
 			"constant.numeric.css",
 			"string.other.link.title.markdown",
 			"variable.other.readwrite.js",
-			"variable.other.property.js"
+			"variable.other.property.js",
+			"string.quoted.double.cpp"
 		  ],
 		  "settings": {
 			"foreground": "#ffffefab",
@@ -628,7 +630,7 @@
 			"string.unquoted.label.js"
 		  ],
 		  "settings": {
-			"foreground": "#03071E"
+			"foreground": "#3b4580"
 			
 		  }
 		},
@@ -908,7 +910,9 @@
 		},
 		{
 		  "scope": [
-			"variable.language.fenced.markdown"
+			"variable.language.fenced.markdown",
+			"keyword.other.using.directive.cpp",
+			
 		  ],
 		  "settings": {
 			"foreground": "#C11CCF"
