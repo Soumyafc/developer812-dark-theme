@@ -241,7 +241,9 @@
 		},
 		{
 			"scope":[
-				"entity.name.tag.wildcard.css"
+				"entity.name.tag.wildcard.css",
+				"entity.name.namespace.cpp",
+				"keyword.operator.assignment.python"
 			],
 			"settings": {
 				"foreground": "#fcec11",
@@ -284,6 +286,7 @@
 		{
 		  "scope": [
 			"constant.other.color",
+			"keyword.operator.arithmetic.python",
 		
 			
 		  ],
@@ -291,6 +294,7 @@
 			"foreground": "#E381E9"
 		  }
 		},
+		
 		{
 		  "scope": [
 			"invalid",
@@ -444,7 +448,8 @@
 			"comment.block.cpp",
 			"comment.block.html",
 			"comment.block.css",
-			"comment.line.double-slash.c"
+			"comment.line.double-slash.c",
+			"comment.line.number-sign.python"
 		
 		  ],
 		  "settings": {
@@ -502,6 +507,7 @@
 			"meta.tag.sgml",
 			"markup.deleted.git_gutter",
 			"storage.type.js",
+			"support.function.builtin.python"
 			
 		  ],
 		  "settings": {
@@ -525,7 +531,7 @@
 			"string.other.link.title.markdown",
 			"variable.other.readwrite.js",
 			"variable.other.property.js",
-			"string.quoted.double.cpp"
+			
 		  ],
 		  "settings": {
 			"foreground": "#ffffefab",
@@ -536,11 +542,11 @@
 			"scope":[
 				
 				"entity.other.attribute-name.html",
-			
+			    "string.quoted.double.cpp"
 			
 			],
 			"settings": {
-				"foreground": "#b6ff8cd8",
+				"foreground": "#baff92b7",
 				
 			}
 		},
@@ -627,7 +633,8 @@
 			"markup.inserted.git_gutter",
 			"meta.group.braces.curly",
 			"constant.other.object.key.js",
-			"string.unquoted.label.js"
+			"string.unquoted.label.js",
+			
 		  ],
 		  "settings": {
 			"foreground": "#3b4580"
@@ -644,10 +651,11 @@
 			"support.other.namespace.php",
 			"markup.changed.git_gutter",
 			"support.type.sys-types",
+			"source.python"
 			
 		  ],
 		  "settings": {
-			"foreground": "#FFFFFF"
+			"foreground": "#ffffffdc"
 		  }
 		},
 		{
@@ -731,17 +739,11 @@
 			"foreground": "#FFFFFF"
 		  }
 		},
+	
 		{
 		  "scope": [
+			"markup.deleted",
 			"markup.inserted"
-		  ],
-		  "settings": {
-			"foreground": "#03071E"
-		  }
-		},
-		{
-		  "scope": [
-			"markup.deleted"
 		  ],
 		  "settings": {
 			"foreground": "#4CC9F0"
