@@ -231,18 +231,40 @@
 			"variable",
 			"string constant.other.placeholder",
 			"invalid.deprecated",
-			"keyword",
-			"storage.type",
-			"storage.modifier"
+			
 		  ],
 		  "settings": {
-			"foreground": "#ffffff"
+			"foreground": "#ff91e7d0"
 		  }
 		},
 		{
+			"scope": [
+			
+			
+			  "entity.name.namespace.cpp",
+			  "entity.name.scope-resolution.cpp"
+			],
+			"settings": {
+			  "foreground": "#0697c4"
+			}
+		  },
+		{
+			"scope": [
+		      "storage.type",
+			  "storage.modifier",
+			  "keyword.operator.comparison.cpp",
+			  "keyword.operator.logical.cpp",
+			  "keyword.operator.cpp",
+			  "keyword.operator.assignment.compound.cpp"
+
+			],
+			"settings": {
+			  "foreground": "#eeeeee"
+			}
+		  },
+		{
 			"scope":[
 				"entity.name.tag.wildcard.css",
-				"entity.name.namespace.cpp",
 				"keyword.operator.assignment.python"
 			],
 			"settings": {
@@ -344,7 +366,7 @@
 			"keyword.other.template",
 			"keyword.other.substitution",
 			"entity.name.tag.reference.scss",
-			"punctuation.terminator.statement.cpp",
+		
 		
 			 ],
 		  "settings": {
@@ -387,6 +409,7 @@
 		},
 		{
 			"scope":[
+				"punctuation.terminator.statement.cpp",
 				"variable.other.property.cpp",
 				"punctuation.separator.delimiter.c"
 
@@ -420,7 +443,7 @@
 			  "constant.other.placeholder.c",
 			  "constant.character.escape.c",
 			  "support.type.property-name.media.css",
-			  "string.quoted.other.lt-gt.include.cpp"
+			
 			],
 			"settings": {
 			  
@@ -621,7 +644,7 @@
 			
 		  ],
 		  "settings": {
-			"foreground": "#4CC9F0"
+			"foreground": "#ff77ff"
 		  }
 		},
 		{
@@ -643,7 +666,6 @@
 		},
 		{
 		  "scope": [
-			"entity.name",
 			"support.type",
 			"support.class",
 			"support.orther.namespace.use.php",
