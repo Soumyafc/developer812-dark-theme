@@ -242,10 +242,11 @@
 			
 			
 			  "entity.name.namespace.cpp",
-			  "entity.name.scope-resolution.cpp"
+			  "entity.name.scope-resolution.cpp",
+			  "entity.name.type.class.cpp"
 			],
 			"settings": {
-			  "foreground": "#0697c4"
+			  "foreground": "#4ba2bd"
 			}
 		  },
 		{
@@ -565,7 +566,10 @@
 			"scope":[
 				
 				"entity.other.attribute-name.html",
-			    "string.quoted.double.cpp"
+			    "string.quoted.double.cpp",
+				"entity.name.type.parameter.cpp",
+			
+			
 			
 			],
 			"settings": {
@@ -594,7 +598,9 @@
 			"entity.name.tag.other.html",
 			"entity.name.tag.block.any.html",
 			"source.sass keyword.control",
-			"string.quoted.double.c"
+			"string.quoted.double.c",
+			"meta.parens.cpp",
+			"meta.head.class.cpp"
 
 		
 		  ],
@@ -630,7 +636,8 @@
 			"constant.character",
 			"constant.escape",
 	        "keyword.other",
-			"punctuation.separator.key-value.html"
+			"punctuation.separator.key-value.html",
+			
 		  ],
 		  "settings": {
 			"foreground": "#FFFFFF"
