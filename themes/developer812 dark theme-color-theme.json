@@ -398,8 +398,6 @@
 			"storage.type.struct.cpp",
 			"storage.type.enum.cpp",
 			"storage.type.union.cpp",
-			"variable.other.object.access.cpp",
-			"variable.other.object",
 			"variable.parameter.probably.c"
 			
 		  ],
@@ -432,7 +430,9 @@
 		},
 		{
 		  "scope": [
-			"keyword.control.c"
+			"keyword.control.c",
+			"variable.other.object.access.cpp",
+			"variable.other.object",
 		  ],
 		  "settings": {
 			
@@ -473,7 +473,8 @@
 			"comment.block.html",
 			"comment.block.css",
 			"comment.line.double-slash.c",
-			"comment.line.number-sign.python"
+			"comment.line.number-sign.python",
+			"comment.line.number-sign.shell"
 		
 		  ],
 		  "settings": {
@@ -508,7 +509,8 @@
 			"keyword.other.unit.vmax.css",
 			"keyword.other.unit.percentage.css",
 			"keyword.other.unit.ex.css",
-			"keyword.other.unit.ch.css"
+			"keyword.other.unit.ch.css",
+			"string.quoted.double.include.cpp"
 
 			],
 			"settings": {
@@ -568,6 +570,7 @@
 				"entity.other.attribute-name.html",
 			    "string.quoted.double.cpp",
 				"entity.name.type.parameter.cpp",
+				"entity.name.scope-resolution.function.call.cpp"
 			
 			
 			
