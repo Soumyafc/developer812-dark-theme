@@ -388,11 +388,37 @@
 		  }
 		},
 		{
+			"scope":[
+				"variable.language.this.js"
+
+			],
+			"settings": {
+				"foreground": "#6ba3bdf5",
+				"fontStyle": "italic"
+			}
+
+		},
+		{
+			"scope":[
+			   "keyword.operator.assignment.js",
+			   "keyword.operator.arithmetic.js",
+			   "keyword.operator.assignment.compound.js",
+			   "keyword.operator.increment.js",
+			   "keyword.operator.decrement.js",
+			   "keyword.operator.relational.js"
+
+			],
+			"settings": {
+				"foreground": "#9a1fff"
+				
+			}
+
+		},
+		{
 		  "scope": [
 			"keyword.control.at-rule",
 			"keyword.control.operator",
 			"punctuation.definition.entity.css",
-			"keyword.operator.assignment.js",
 		    "punctuation.definition.binding-pattern.object.js",
 			"storage.type.class.cpp",
 			"storage.type.struct.cpp",
@@ -400,6 +426,7 @@
 			"storage.type.union.cpp",
 			"variable.parameter.probably.c",
 			"entity.other.attribute-name.html",
+			"storage.type.function.js"
 			
 		  ],
 		  "settings": {
@@ -759,12 +786,11 @@
 		
 			"keyword.control.conditional.js",
 			"support.constant",
-		    "keyword.operator.relational.js",
-			"string.quoted.single.js",
-			"storage.type.function.js",
+		    "string.quoted.single.js",
 			"meta.object-literal.key",
 			"punctuation.definition.string.begin.js",
-			"punctuation.definition.string.end.js"
+			"punctuation.definition.string.end.js",
+			"support.function.math.js"
 			
 		  ],
 		  "settings": {
