@@ -243,7 +243,6 @@
 			
 			  "entity.name.namespace.cpp",
 			  "entity.name.scope-resolution.cpp",
-			  "entity.name.type.class.cpp"
 			],
 			"settings": {
 			  "foreground": "#4ba2bd"
@@ -267,8 +266,9 @@
 			"scope":[
 				"entity.name.tag.wildcard.css",
 				"keyword.operator.assignment.python",
+				"entity.name.type.class.cpp"
 				
-			],
+],
 			"settings": {
 				"foreground": "#fcec11",
 				
