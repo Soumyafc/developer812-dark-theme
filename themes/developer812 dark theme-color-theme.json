@@ -377,6 +377,17 @@
 		  }
 		},
 		{
+			"scope":[
+				"keyword.control.loop.js"
+
+			],
+			"settings": {
+				"foreground": "#984eff"
+				
+			}
+
+		},
+		{
 		  "scope": [
 			"punctuation.definition.tag.begin.html",
 			"punctuation.definition.tag.end.html",
@@ -411,7 +422,7 @@
 
 			],
 			"settings": {
-				"foreground": "#ba66ff"
+				"foreground": "#ffe138"
 				
 			}
 
@@ -533,7 +544,8 @@
 		},
 		{
 			"scope":[
-			"string.quoted.double.js"
+			"string.quoted.double.js",
+			"string.quoted.single.js"
 			],
 			"settings": {
 				"foreground": "#cecece",
@@ -791,8 +803,7 @@
 		  "scope": [
 	        "keyword.control.switch.js",
 			"support.constant",
-		    "string.quoted.single.js",
-			"meta.object-literal.key",
+		    "meta.object-literal.key",
 			"punctuation.definition.string.begin.js",
 			"punctuation.definition.string.end.js",
 			],
@@ -837,13 +848,13 @@
 		  ],
 		  "settings": {
 			"foreground": "#DE63F7",
-			"fontStyle": "italic"
-		  }
+			}
 		},
 	    {
 		  "scope": [
 			"text.html.markdown markup.inline.raw.markdown",
 			"punctuation.definition.raw.markdown"
+			
 		  ],
 		  "settings": {
 			"foreground": "#C11CCF50"
