@@ -596,7 +596,6 @@
 		{
 		  "scope": [
 			"variable.other.object.js",
-			"constant.numeric.css",
 			"string.other.link.title.markdown",
 			"variable.other.readwrite.js",
 			"variable.other.property.js",
@@ -606,6 +605,14 @@
 			"foreground": "#f725a6",
 			
 		  }
+		},
+		{
+			"scope":[
+				"constant.numeric.css"
+			],
+			"settings": {
+				"foreground": "#94eb83"
+			}
 		},
 		{
 			"scope":[
