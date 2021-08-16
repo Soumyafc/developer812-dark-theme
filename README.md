@@ -12,7 +12,7 @@
 ![HTML Image](ScreenShots\html.png)
 
 ### C++
-![C++ Image](ScreenShots\C++(2).png)
+![C++ Image](https://drive.google.com/file/d/1sV0OYynD5yNIPnkYBJLpCq2tOHBvtQiE/view?usp=sharing)
 
 ### CSS
 ![CSS Image](ScreenShots\css.png)
