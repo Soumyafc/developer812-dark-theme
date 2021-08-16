@@ -1,4 +1,4 @@
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Soumyafc/developer812-dark-theme?include_prereleases&style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Soumyafc/developer812-dark-theme?style=for-the-badge)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Soumyafc/developer812-dark-theme/master?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/Soumyafc/developer812-dark-theme?style=for-the-badge)
 
@@ -13,10 +13,6 @@
 ### HTML
 
 ![HTML Image](ScreenShots/html.png)
-
-### C++
-
-![C++ Image](ScreenShots/Carbon.png)
 
 ### CSS
 
