@@ -7,6 +7,7 @@
 ---
 
 ### Java Script
+
 ![Java Script Image](ScreenShots/javascript.png)
 
 ### HTML
@@ -107,6 +108,8 @@ Paste `settings.json` and press `Enter`:
 ```
 
 ## Other resources
+
+- Please share your reviews about this theme in the visual studio market place [here](https://marketplace.visualstudio.com/items?itemName=developer812.developer812-dark-theme&ssr=false#review-details) .
 
 - Please review about this theme to help us to make this theme better for you [Google Form](https://forms.gle/tzYxqShzE356oiaU7) .
 
