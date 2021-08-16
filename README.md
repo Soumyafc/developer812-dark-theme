@@ -5,17 +5,22 @@
 <h3 align="center">Get the best dark theme into your VS Code.</h3>
 
 ---
+
 ### Java Script
-![Java Script Image](ScreenShots\javascript.png)
+
+![Java Script Image](ScreenShots/javascript.png)
 
 ### HTML
-![HTML Image](ScreenShots\html.png)
+
+![HTML Image](ScreenShots/html.png)
 
 ### C++
-![C++ Image](https://drive.google.com/file/d/1sV0OYynD5yNIPnkYBJLpCq2tOHBvtQiE/view?usp=sharing)
+
+![C++ Image](<ScreenShots/C++(2).png>)
 
 ### CSS
-![CSS Image](ScreenShots\css.png)
+
+![CSS Image](ScreenShots/css.png)
 
 The most epic dark theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/Soumyafc/developer812-dark-theme/issues).
 
@@ -58,12 +63,9 @@ git clone https://github.com/Soumyafc/developer812-dark-theme.git
 
 Click on the `Settings(gear) icon` at the very bottom of the `activity bar` and then you choose `Color Theme` option , then find out `developer812 dark theme` option and click it.
 
-
-
-
 ## Override theme colors
 
-You can override the developer812 Theme UI and schemes colors by 
+You can override the developer812 Theme UI and schemes colors by
 Launch _Quick Open_:
 
 - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
@@ -71,7 +73,6 @@ Launch _Quick Open_:
 - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
 
 Paste `settings.json` and press `Enter`:
-
 
 [relative section on the VS Code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
 
@@ -108,6 +109,6 @@ Paste `settings.json` and press `Enter`:
 
 ## Other resources
 
-- Please review about this theme to help us to make this theme better for you  [Google Form](https://forms.gle/tzYxqShzE356oiaU7) .
+- Please review about this theme to help us to make this theme better for you [Google Form](https://forms.gle/tzYxqShzE356oiaU7) .
 
 ---
