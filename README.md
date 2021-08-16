@@ -16,7 +16,7 @@
 
 ### C++
 
-![C++ Image](ScreenShots/C++.png)
+![C++ Image](ScreenShots/Carbon.png)
 
 ### CSS
 
