@@ -6,7 +6,7 @@
 
 ---
 ### Java Script
-![Java Script Image](ScreenShots\javascript.png)
+![Java Script Image](ScreenShots/javascript.png)
 
 ### HTML
 ![HTML Image](ScreenShots\html.png)
