@@ -7,10 +7,6 @@
 ---
 
 ### Java Script
-<<<<<<< HEAD
-
-=======
->>>>>>> 96354237a99c9fff7787b91b0c2566df1ff444ce
 ![Java Script Image](ScreenShots/javascript.png)
 
 ### HTML
