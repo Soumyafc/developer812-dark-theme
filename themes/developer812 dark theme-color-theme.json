@@ -114,7 +114,8 @@
 		"menubar.selectionBorder": "#C11CCF50",
 		"menubar.selectionForeground": "#DE63F7",
 		"minimap.background": "#010B14",
-		"minimap.findMatchHighlight": "#88ff00",
+		"minimap.selectionHighlight": "#2d5e8f",
+		"minimap.findMatchHighlight": "#98dd49",
 		"minimapGutter.addedBackground": "#4CC9F0",
 		"minimapGutter.deletedBackground": "#FFFFFF",
 		"minimapGutter.modifiedBackground": "#03071E",
@@ -175,8 +176,8 @@
 		"statusBar.foreground": "#FFFFFF",
 		"statusBar.noFolderBackground": "#010B14",
 		"statusBarItem.hoverBackground": "#C11CCF20",
-		"statusBarItem.remoteBackground": "#C11CCF",
-		"statusBarItem.remoteForeground": "#010B14",
+		"statusBarItem.remoteBackground": "#ffffff",
+		"statusBarItem.remoteForeground": "#f200ff",
 		"tab.activeBackground": "#010b14e7",
 		"tab.activeBorder": "#00ffbbab",
 		"tab.activeForeground": "#ffffff",
@@ -243,23 +244,37 @@
 		},
 		{
 			"scope": [
-			
-			
-			  "entity.name.namespace.cpp",
-			  "entity.name.scope-resolution.cpp",
+	          "entity.name.namespace.cpp",
+			  "entity.name.scope-resolution.cpp",	
+			  "keyword.control.directive.include.cpp",
+			  "keyword.operator.comparison.cpp",
+			  "keyword.operator.logical.cpp",
+			  "keyword.operator.cpp",
+			  "keyword.operator.assignment.compound.cpp",
+			  "keyword.operator.increment.cpp",
+			  "keyword.operator.decrement.cpp"
 			],
 			"settings": {
-			  "foreground": "#4ba2bd"
+			  "foreground": "#4ba2bd",
+			  "fontStyle": "bold"
 			}
+		  },
+		  {
+			  "scope":[
+				"support.function.builtin.python"
+              ],
+			  "settings": {
+				  "foreground": "#aef6ff",
+				  "fontStyle": "bold"
+				 
+			  }
+
 		  },
 		{
 			"scope": [
 		      "storage.type",
 			  "storage.modifier",
-			  "keyword.operator.comparison.cpp",
-			  "keyword.operator.logical.cpp",
-			  "keyword.operator.cpp",
-			  "keyword.operator.assignment.compound.cpp"
+		      "support.type.property-name.json.comments"
 
 			],
 			"settings": {
@@ -271,8 +286,7 @@
 				"entity.name.tag.wildcard.css",
 				"keyword.operator.assignment.python",
 				"entity.name.type.class.cpp"
-				
-],
+		   ],
 			"settings": {
 				"foreground": "#fcec11",
 				
@@ -293,7 +307,8 @@
 		{
 		  "scope": [
 			"punctuation.definition.interpolation.end.bracket.curly.scss",
-			"punctuation.definition.interpolation.begin.bracket.curly.scss"
+			"punctuation.definition.interpolation.begin.bracket.curly.scss",
+			
 		  ],
 		  "settings": {
 			"foreground": "#5fddf3"
@@ -306,7 +321,8 @@
 			"support.constant.property-value.css",
 			"support.constant.font-name.css",
 			"punctuation.terminator.rule.css",
-			"punctuation.separator.comma.js"
+			"punctuation.separator.comma.js",
+			
 		  ],
 		  "settings": {
 			"foreground": "#ffffffda"
@@ -354,11 +370,14 @@
 		{
 			"scope": [
 			
-			"keyword.control.at-rule.media.css"
+			"keyword.control.at-rule.media.css",
+			"keyword.control.import.python",
+			"keyword.operator.assignment.cpp",
+			"keyword.operator.comparison.cpp"
 	        ],
 			"settings": {
 			  "foreground": "#8ce4ffe3",
-			  "fontStyle": "italic"
+			  "fontStyle": "bold"
 			}
 		  },
 		{
@@ -446,9 +465,7 @@
 			"entity.other.attribute-name.html",
 			"meta.tag.sgml",
 			"markup.deleted.git_gutter",
-			"support.function.builtin.python"
-			
-		  ],
+		],
 		  "settings": {
 			"foreground": "#DE63F7",
 		
@@ -481,6 +498,7 @@
 			"keyword.control.c",
 			"variable.other.object.access.cpp",
 			"variable.other.object",
+		
 		  ],
 		  "settings": {
 			"foreground": "#01A7B6"
@@ -575,7 +593,8 @@
 			"keyword.other.unit.percentage.css",
 			"keyword.other.unit.ex.css",
 			"keyword.other.unit.ch.css",
-			"string.quoted.double.include.cpp"
+			"string.quoted.double.include.cpp",
+			"punctuation.definition.directive.cpp"
 
 			],
 			"settings": {
@@ -586,11 +605,12 @@
 		  "scope": [
 			"text.html.derivative",
 	        "meta.attribute.class.html",
-			"meta.jsx.children.js"
-			
+			"meta.jsx.children.js",
+			"string.quoted.single.python",
+			"string.quoted.other.lt-gt.include.cpp"
 		  ],
 		  "settings": {
-			"foreground": "#edf6f9e0"
+			"foreground": "#edf6f9e5"
 		  }
 		},
 		{
@@ -652,8 +672,8 @@
 			"source.sass keyword.control",
 			"string.quoted.double.c",
 		    "meta.parens.cpp",
-			"meta.head.class.cpp"
-
+			"meta.head.class.cpp",
+            "meta.function-call.arguments.python"
 		
 		  ],
 		  "settings": {
@@ -664,8 +684,8 @@
 		{
 		  "scope": [
 			"punctuation.definition.string.begin.html",
-			"punctuation.definition.string.end.html"
-			
+			"punctuation.definition.string.end.html",
+			"storage.type.string.python"
 		  ],
 		  "settings": {
 			"foreground": "#76F3EB"
@@ -677,7 +697,8 @@
 			"string.other.link",
 			"markup.table",
 			"entity.name.function.c",
-			"storage.type.js"
+			"storage.type.js",
+			"source.python"
 		  ],
 		  "settings": {
 			"foreground": "#DE63F7"
@@ -704,7 +725,7 @@
 		  "scope": [
 			"variable.parameter.function.language.special",
 			"variable.parameter",
-		
+		    
 			
 		  ],
 		  "settings": {
@@ -722,6 +743,7 @@
 			"constant.other.object.key.js",
 			"string.unquoted.label.js",
 			
+			
 		  ],
 		  "settings": {
 			"foreground": "#3b4580"
@@ -737,7 +759,6 @@
 			"support.other.namespace.php",
 			"markup.changed.git_gutter",
 			"support.type.sys-types",
-			"source.python",
 			"keyword.control.conditional.js"
 		  ],
 		  "settings": {
@@ -817,6 +838,11 @@
 		    "meta.object-literal.key",
 			"punctuation.definition.string.begin.js",
 			"punctuation.definition.string.end.js",
+			"punctuation.definition.string.end.python",
+			"punctuation.definition.string.begin.python",
+			"punctuation.definition.string.begin.cpp",
+			"punctuation.definition.string.end.cpp"
+			
 			],
 		  "settings": {
 			"foreground": "#ff5c10"
