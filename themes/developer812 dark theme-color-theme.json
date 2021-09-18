@@ -246,7 +246,7 @@
 			"scope": [
 	          "entity.name.namespace.cpp",
 			  "entity.name.scope-resolution.cpp",	
-			  "keyword.control.directive.include.cpp",
+			 
 			  "keyword.operator.comparison.cpp",
 			  "keyword.operator.logical.cpp",
 			  "keyword.operator.cpp",
@@ -594,11 +594,23 @@
 			"keyword.other.unit.ex.css",
 			"keyword.other.unit.ch.css",
 			"string.quoted.double.include.cpp",
-			"punctuation.definition.directive.cpp"
+			"punctuation.definition.directive.cpp",
+		
+			
 
 			],
 			"settings": {
 				"foreground": "#e76f51f5",
+			}
+		},
+		{
+			"scope":[
+				 "keyword.control.directive.include.cpp"
+
+			],
+			"settings": {
+				"foreground": "#e76f51f5",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -607,10 +619,11 @@
 	        "meta.attribute.class.html",
 			"meta.jsx.children.js",
 			"string.quoted.single.python",
-			"string.quoted.other.lt-gt.include.cpp"
+			"string.quoted.other.lt-gt.include.cpp",
+			"storage.type.built-in.primitive.cpp"
 		  ],
 		  "settings": {
-			"foreground": "#edf6f9e5"
+			"foreground": "#edf6f9de"
 		  }
 		},
 		{
@@ -629,6 +642,7 @@
 		{
 			"scope":[
 				"constant.numeric.css"
+			
 			],
 			"settings": {
 				"foreground": "#94eb83"
@@ -760,9 +774,10 @@
 			"markup.changed.git_gutter",
 			"support.type.sys-types",
 			"keyword.control.conditional.js"
+			
 		  ],
 		  "settings": {
-			"foreground": "#fffffffd"
+			"foreground": "#fffffff1"
 		  }
 		},
 		{
@@ -845,7 +860,8 @@
 			
 			],
 		  "settings": {
-			"foreground": "#ff5c10"
+			"foreground": "#ff5c10",
+			"fontStyle": "bold"
 		  }
 		},
 		{
