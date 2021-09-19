@@ -246,7 +246,7 @@
 			"scope": [
 	          "entity.name.namespace.cpp",
 			  "entity.name.scope-resolution.cpp",	
-			 
+			  "keyword.control.return.cpp",
 			  "keyword.operator.comparison.cpp",
 			  "keyword.operator.logical.cpp",
 			  "keyword.operator.cpp",
@@ -475,7 +475,8 @@
 			"scope":[
 				"punctuation.terminator.statement.cpp",
 				"variable.other.property.cpp",
-				"punctuation.separator.delimiter.c"
+				"punctuation.separator.delimiter.c",
+				"entity.name.function.preprocessor.cpp"
 
 			],
 			"settings": {
