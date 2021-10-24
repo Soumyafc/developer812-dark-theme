@@ -477,7 +477,7 @@
 				"variable.other.property.cpp",
 				"punctuation.separator.delimiter.c",
 				"entity.name.function.preprocessor.cpp"
-
+				
 			],
 			"settings": {
 				"foreground": "#fcfcfcf5",
@@ -550,7 +550,8 @@
 			"comment.block.css",
 			"comment.line.double-slash.c",
 			"comment.line.number-sign.python",
-			"comment.line.number-sign.shell"
+			"comment.line.number-sign.shell",
+			"comment.line.number-sign.ignore"
 		
 		  ],
 		  "settings": {
@@ -568,7 +569,8 @@
 		{
 			"scope":[
 			"string.quoted.double.js",
-			"string.quoted.single.js"
+			"string.quoted.single.js",
+			"string.quoted.double.include.cpp"
 			],
 			"settings": {
 				"foreground": "#cecece",
@@ -594,12 +596,8 @@
 			"keyword.other.unit.percentage.css",
 			"keyword.other.unit.ex.css",
 			"keyword.other.unit.ch.css",
-			"string.quoted.double.include.cpp",
-			"punctuation.definition.directive.cpp",
-		
-			
-
-			],
+		    "punctuation.definition.directive.cpp",
+	        ],
 			"settings": {
 				"foreground": "#e76f51f5",
 			}
@@ -688,7 +686,8 @@
 			"string.quoted.double.c",
 		    "meta.parens.cpp",
 			"meta.head.class.cpp",
-            "meta.function-call.arguments.python"
+            "meta.function-call.arguments.python",
+			"source.ignore"
 		
 		  ],
 		  "settings": {
